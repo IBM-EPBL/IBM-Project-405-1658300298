@@ -1,0 +1,30 @@
+<html>
+<head>
+<link rel="stylesheet" href="{{url_for('static', filename='css/login.css')}}">
+<script src="{{url_for('static', filename='js/login.js')}}"></script>
+<title>
+login page
+</title>
+</head>
+<body>
+<div id="warp">
+  <h2>Crude Oil Price Prediction.</h2>
+  <form method="post">
+    	<div class="admin">
+			      <div class="rota">
+				        <h1>ADMIN</h1>
+        				<input id="username" type="text" name="user_name" value="" placeholder="Username"/><br />
+				        <input id="password" type="password" name="password" value="" placeholder="Password"/>
+      			</div>
+    		</div>
+    		<div class="cms">
+      			<div class="roti">
+			        	<h1>LOGIN</h1>
+				        <button id="valid" type="submit" name="valid">Login</button><br />
+				        <p> <a href="/register">Register</a> 
+      </div>
+    		</div>
+  	</form>
+</div>
+</body>
+</html>
